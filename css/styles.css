@@ -1,0 +1,31 @@
+body{
+   background-image:url("https://image.freepik.com/free-photo/tasty-pepperoni-pizza-black-concrete-background_79782-103.jpg");
+   background-repeat: no-repeat;
+   background-size: cover; 
+   font-family: 'Barlow Condensed', sans-serif;
+   font-size:30px;
+}
+.container{
+    float:right;
+    color:white;
+   
+   
+}
+ h1{
+  margin-left:40%;
+  font-size:60px;
+  color:white;
+  font-family: 'Merriweather', serif;
+  font-family: 'Lakki Reddy', cursive;
+  margin-top:17%;  
+ }
+.container p {
+    margin-left:25%;
+}
+#btn{
+    margin-left:50%;
+    background-color:green;
+    border-radius: 12px;
+    font-size:30px;
+
+}
