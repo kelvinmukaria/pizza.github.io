@@ -1,31 +1,68 @@
-body{
+.home{
    background-image:url("https://image.freepik.com/free-photo/tasty-pepperoni-pizza-black-concrete-background_79782-103.jpg");
    background-repeat: no-repeat;
    background-size: cover; 
    font-family: 'Barlow Condensed', sans-serif;
-   font-size:30px;
+   font-size:27px;
+   width:100%;
+   height:auto;
 }
-.container{
-    float:right;
-    color:white;
-   
-   
+.home{
+    color:white;   
 }
  h1{
-  margin-left:40%;
+  margin-left:62%;
   font-size:60px;
   color:white;
   font-family: 'Merriweather', serif;
   font-family: 'Lakki Reddy', cursive;
-  margin-top:17%;  
+  margin-top:13%;  
  }
-.container p {
-    margin-left:25%;
+.home p {
+    margin-left:50%;
 }
 #btn{
-    margin-left:50%;
+    margin-left:55%;
     background-color:green;
     border-radius: 12px;
     font-size:30px;
 
+}
+body{
+    color:white;
+}
+.footer{
+   margin-left: 30%;
+    margin-top:18%;
+}
+
+/* index2.html file */
+.cont{
+    background-image:url("https://c4.wallpaperflare.com/wallpaper/221/896/910/dish-pizza-cuisine-mushroom-wallpaper-preview.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   width:100%;
+   height:auto;
+}
+#btn2{
+    padding:20px 18px;
+    margin-left:4%;
+    font-size:20px;
+    font-family: 'Merriweather', serif;
+    border-radius: 12%;
+    background-color: aquamarine;
+}
+.placeOrder{
+    font-size:20px;
+    display:flex;
+}
+#submit2{
+    margin-bottom: 44%;
+    padding:10px;
+    border-radius: 12px;
+}
+span{
+    font-size:40px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Lakki Reddy', cursive;
 }
