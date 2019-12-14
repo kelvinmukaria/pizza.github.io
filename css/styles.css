@@ -35,8 +35,44 @@ body{
    margin-left: 30%;
     margin-top:18%;
 }
-
-
+/* media querry for smaller screens */
+@media only screen and (max-width: 720px){
+    h1{
+        margin-left:20%;
+        font-size:30px;
+        margin-top:5%;
+    }
+    .home p{
+        margin-left:15%;
+    }
+    #btn{
+        margin-left: 30%;
+        font-size:15px;
+    }
+    .footer{
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+}
+/* media querry for larger screens */
+@media only screen and (max-width: 1400px) {
+    h1{
+        margin-left:20%;
+        font-size:30px;
+        margin-top:5%;
+    }
+    .home p{
+        margin-left:15%;
+    }
+    #btn{
+        margin-left: 30%;
+        font-size:15px;
+    }
+    .footer{
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+}
 /* index2.html file */
 .cont{
    background-image:url("https://c4.wallpaperflare.com/wallpaper/221/896/910/dish-pizza-cuisine-mushroom-wallpaper-preview.jpg");
