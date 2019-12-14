@@ -36,7 +36,7 @@ body{
     margin-top:18%;
 }
 /* media querry for smaller screens */
-@media only screen and (max-width: 720px){
+@media only screen and (max-width: 740px){
     h1{
         margin-left:20%;
         font-size:30px;
