@@ -21,10 +21,7 @@ function getQuantity() {
 /* function to calculate the total amount */
 function totalAmount() {
   var totals = (getSize() + getCrust() + getTopping()) * getQuantity();
-  if (totals !== "") {
-    alert("Please fill out the order.");
-  } else {
-    alert(
+   alert(
       "You have Ordered " +
         getQuantity("") +
         " pizza," +
@@ -34,7 +31,7 @@ function totalAmount() {
         "" +
         " Thanks for your order welcome again."
     );
-  }
+
   // variable to get the location of the customer
   var location = prompt("enter your location");
   if (location === "") {
