@@ -24,8 +24,6 @@ function getCheese() {
 function getQuantity() {
   var number = document.getElementById("quantity").value;
   return parseInt(number);
-  var val0 = document.getElementById("quantity").value0;
-  return parseInt(val0);
 }
 
 /* function to calculate the total amount */
@@ -34,7 +32,7 @@ function totalAmount() {
   alert(
     "You have Ordered " +
     getQuantity("") +
-    " pizza," +
+    " pizza," + 
     "" +
     " amounting to ksh. " +
     totals +
@@ -43,10 +41,8 @@ function totalAmount() {
   );
 
   // variable to get the location of the customer
-  var location = prompt("If you want it to be delivered to you, you can enter your location and if not cancel.");
-  if (location === "") {
-    alert("You order will be delivered shortly.Delivery fee is 100/=");
-  } else {
-    alert("Your order is being processed please pass by to pick your order.");
+  var location = prompt("If you want your pizza to be delivered to you please enter your location and if not cancel.");
+  if (location !== "") {
+    alert("You order will be delivered shortly.Delivery fee is 100/= and incase you didn,t want it delivered please come for your order.");
   }
 }
