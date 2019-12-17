@@ -43,7 +43,7 @@ function totalAmount() {
   );
 
   // variable to get the location of the customer
-  var location = prompt("enter your location");
+  var location = prompt("If you want it to be delivered to you, you can enter your location and if not cancel.");
   if (location === "") {
     alert("You order will be delivered shortly.Delivery fee is 100/=");
   } else {
