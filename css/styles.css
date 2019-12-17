@@ -23,17 +23,20 @@ h1 {
 
 .home p {
     margin-left: 50%;
-    margin-right:40px;
-    
+    margin-right: 40px;
+
 }
-#pizzaTopping{
-    display:flex;
+
+#pizzaTopping {
+    display: flex;
     align-items: column;
 }
-#pizzaSize{
-    display:flex;
+
+#pizzaSize {
+    display: flex;
     align-items: column;
 }
+
 #btn {
     margin-left: 55%;
     background-color: green;
@@ -131,11 +134,13 @@ body {
     border-radius: 12px;
     margin-bottom: 7%;
 }
+
 span {
     font-size: 40px;
     font-family: 'Merriweather', serif;
     font-family: 'Lakki Reddy', cursive;
 }
-.card-body{
-    color:red;
+
+.card-body {
+    color: red;
 }
