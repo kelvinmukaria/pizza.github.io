@@ -18,9 +18,10 @@
             <a href="index.html"><button type="submit" form="form1" value="Submit" id="btn2">Pizza Palace </button></a>
             <div class="placeOrder">
                 <form>
-                    <div class="row">
+                    <div class="card">
+                        <div class="card-body">
                         <!-- A form for the pizza size -->
-                        <div class="col-md-3 form-group">
+                        <div class="form-group">
                             <div id="size">
                                 <label for="pizzaSize">Size</label>
                                 <select class="browser-default custom-select" id="pizzaSize">
@@ -32,7 +33,7 @@
                             </div>
                         </div>
                         <!-- A form for the pizza crust -->
-                        <div class="col-md-3 form-group">
+                        <div class="form-group">
                             <div id="crust">
                                 <label for="pizzaCrust">Crust</label>
                                 <select class="browser-default custom-select" id="pizzaCrust">
@@ -46,22 +47,44 @@
                             </div>
                         </div>
                         <!-- A form for the pizza topping -->
-                        <div class="col-md-3 form-group">
+                        <div class=" form-group">
                             <div id="toppings">
-                                <label for="pizzaTopping">Topping</label>
+                                <label for="pizzaTopping">Meat</label>
                                 <select class="browser-default custom-select" id="pizzaTopping">
                                     <option label="choose"></option>
-                                    <option label="Bacon" value="120"></option>
-                                    <option label="Mushrooms" value="120"></option>
-                                    <option label="Sausages" value="100"></option>
-                                    <option label="Green peppers" value="100"></option>
-                                    <option label="pepperoni" value="200"></option>
-                                    <option label="Black olives" value="80"></option>
+                                    <option label="Bacon -ksh.120" value="120"></option>
+                                    <option label="Beef -ksh.120" value="120"></option>
+                                    <option label="Sausages -ksh.100" value="100"></option>
+                                    <option label="Chicken -ksh.100" value="100"></option>
                                 </select>
                             </div>
                         </div>
+                        <div class="form-group">
+                            <div id="toppings">
+                                <label for="pizzaTopping">Veggies</label>
+                                <select class="browser-default custom-select" id="pizzaTopping">
+                                    <option label="choose"></option>
+                                    <option label="spinach -ksh.130" value="130"></option>
+                                    <option label="Tomatoes -ksh.100" value="100"></option>
+                                    <option label="Corriender -ksh.80" value="80"></option>
+                                    <option label="Onions -ksh.60" value="60"></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                                <div id="toppings">
+                                    <label for="pizzaTopping">Cheese</label>
+                                    <select class="browser-default custom-select" id="pizzaCheese">
+                                        <option label="choose"></option>
+                                        <option label="Ricotta -ksh.130" value="130"></option>
+                                        <option label="Parmesam -ksh.100" value="100"></option>
+                                        <option label="Cheddar -ksh.80" value="80"></option>
+                                        <option label="Provolone -ksh.60" value="60"></option>
+                                    </select>
+                                </div>
+                            </div>
                         <!-- A form for the number of pizza ordered -->
-                        <div class="col-md-3 form-group">
+                        <div class="form-group">
                             <div id="number">
                                 <label for="quantity">Quantity</label>
                                 <input class="form-control" type="number" name="pizza" id="quantity" placeholder="0"
@@ -75,6 +98,9 @@
                         onclick="totalAmount();"><strong>Confirm order</strong><img
                             src="https://www.giovannispizzeria.net/images/reward.png" class="img-fluid"></button>
 
+                        </div>
+                    </div>
+                   
             </div>
             <!-- footer -->
             <div class="card-deck">
